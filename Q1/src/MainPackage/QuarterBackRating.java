@@ -38,7 +38,7 @@ public class QuarterBackRating {
 
 	}
 
-	private static double QBRating(double touchdownsScored, double totalYards, double interceptions,
+	public static double QBRating(double touchdownsScored, double totalYards, double interceptions,
 			double completions, double attempts) {
 		
 			double a = ((Completions / Attempts) - .3) * 5;
